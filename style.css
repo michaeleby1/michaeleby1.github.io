@@ -14,11 +14,13 @@ p {
 .left {
 	flex-basis: 15%;
 	width: 15%;
+	z-index: 0;
 }
 
 .right {
 	flex-basis: 85%;
 	width: 85%;
+	z-index: 1;
 }
 
 .left .image-container {
@@ -33,6 +35,8 @@ p {
 .left .image-container img {
 	width: inherit;
 	position: fixed;
+	left: 300px;
+	top: 200px;
 }
 
 .right .text-container {
