@@ -1,0 +1,39 @@
+body {
+	background-color: #145913;
+}
+
+a {
+	color: black;
+}
+
+.container {
+	display: flex;
+
+}
+
+.left {
+	flex-basis: 40%;
+	width: 40%;
+	/*flex-grow: 0;*/
+	/*flex-shrink: 0;*/
+}
+
+.right {
+	flex-basis: 60%;
+	width: 60%;
+	/*flex-grow: 0;*/
+	/*flex-shrink: 0;*/
+}
+
+.right .text-container {
+	text-align: right;
+}
+
+.left .image-container {
+	/*width: 40%;*/
+}
+
+.left .image-container img {
+	width: 100%;
+}
+
