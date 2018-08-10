@@ -1,39 +1,40 @@
 body {
-	background-color: #145913;
+	background-color: #82ad98;
 }
 
-a {
-	color: black;
+p {
+	font-size: 32px;
+	margin-top: 90px;
 }
 
 .container {
 	display: flex;
-
 }
 
 .left {
-	flex-basis: 40%;
-	width: 40%;
-	/*flex-grow: 0;*/
-	/*flex-shrink: 0;*/
+	flex-basis: 15%;
+	width: 15%;
 }
 
 .right {
-	flex-basis: 60%;
-	width: 60%;
-	/*flex-grow: 0;*/
-	/*flex-shrink: 0;*/
+	flex-basis: 85%;
+	width: 85%;
+}
+
+.left .image-container {
+	position: relative;	
+	width: inherit;
+}
+
+.left .image-container a {
+	width: inherit;
+}
+
+.left .image-container img {
+	width: inherit;
+	position: fixed;
 }
 
 .right .text-container {
 	text-align: right;
 }
-
-.left .image-container {
-	/*width: 40%;*/
-}
-
-.left .image-container img {
-	width: 100%;
-}
-
