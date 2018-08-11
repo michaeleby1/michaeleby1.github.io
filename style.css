@@ -7,38 +7,31 @@ p {
 	margin-top: 90px;
 }
 
-.container {
-	display: flex;
+a {
+	word-break: break-all;
 }
 
-.left {
-	flex-basis: 15%;
-	width: 15%;
+div {
+	position: relative;
+}
+
+.image-container {
+	position: fixed;
+	width: 15vw;
+	left: 300px;
+	top: 200px;
 	z-index: 0;
 }
 
-.right {
-	flex-basis: 85%;
-	width: 85%;
-	z-index: 1;
+.image-container a {
+	display: block;
 }
 
-.left .image-container {
-	position: relative;	
-	width: inherit;
+.image-container img {
+	width: 100%;
 }
 
-.left .image-container a {
-	width: inherit;
-}
-
-.left .image-container img {
-	width: inherit;
-	position: fixed;
-	left: 300px;
-	top: 200px;
-}
-
-.right .text-container {
+.text-container {
 	text-align: right;
+	z-index: 1;
 }
