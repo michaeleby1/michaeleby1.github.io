@@ -10,6 +10,8 @@ p {
 
 a {
 	word-break: break-all;
+	color: gray;
+	font-style: italic;
 }
 
 div {
@@ -20,7 +22,7 @@ div {
 	position: fixed;
 	width: 15vw;
 	left: 500px;
-	top: 200px;
+	top: 250px;
 	z-index: 0;
 }
 
