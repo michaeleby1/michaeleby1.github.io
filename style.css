@@ -1,5 +1,5 @@
 body {
-	background-color: #0B24FB;
+	background-color: #82ad98;
 }
 
 p {
@@ -32,6 +32,6 @@ div {
 }
 
 .text-container {
-	text-align: left;
+	text-align: right;
 	z-index: 1;
 }
